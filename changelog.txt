@@ -1,0 +1,131 @@
+Version 2.1.0 - 18th November 2021 
+
+* Added:  Integrate Stripe Gateway for Bancontact #111
+* Added: Support for scheduled and manual pay outs #103
+* Added: setup_future_usage and filter
+* Updated: License client library
+* Updated: Make all shipping lines with vendor items refundable by default
+* Updated: Option for stripe fee split for vendors on separate transfers payments #74
+* Update: Stripe PHP Library for PHP8 support
+* Fixed: Application fee is being applied when commission is 100% and a vendor coupon is used #84
+* Fixed: Can not reusable source #99
+* Fixed: Two text domains #101
+* Fixed: While using WC Vendors Marketplace with WC Vendors Stripe Connect, "Click here to disconnect your Stripe account" link in WP dashboard does not work #91
+* Fixed: Order level fees not being captured during payment #87
+* Fixed: Application fee is being applied when commission is 100% and a vendor coupon is used
+* Fixed: Incorrect stripe fee for vendors on separate transfers payments #74
+* Fixed: CSRF Verification fails 3d Secure with Separate Charges & Transfers and generating accounts
+* Fixed: Incorrect stripe fee for vendors on separate transfers payments #74
+
+Version 2.0.9 - 21st July 2021 
+
+* Updated: Make all shipping lines with vendor items refundable by default
+* Updated: Option for stripe fee split for vendors on separate transfers payments #74
+* Updated: Tested WC Versions
+* Fixed: Can not reusable source #99
+* Fixed: Two text domains #101
+* Fixed: Can not reusable source #99
+* Fixed: While using WC Vendors Marketplace with WC Vendors Stripe Connect, "Click here to disconnect your Stripe account" link in WP dashboard does not work #91
+* Fixed: Stripe checkout shows even when not selected payment method 
+* Fixed: Order level fees not being captured during payment #87
+* Fixed: Incorrect text domain
+* Fixed: Incorrect stripe fee for vendors on separate transfers payments #74
+* Fixed: CSRF Verification fails 3d Secure with Separate Charges & Transfers and generating accounts
+* Fixed: Incorrect stripe fee for vendors on separate transfers payments #74
+
+Version 2.0.8 - 17th June 2020
+
+* Fixed: Direct charges error with more than 1 vendor in cart for new Stripe accounts #70
+
+Version 2.0.7 - 15th April 2020
+
+* Added: Transfer description #63
+* Added: Stripe API Version to api calls
+* Added: CSS id to custom page
+* Added: Source transaction to Transfer args
+* Fixed: Separate Charges and Transfers automatic commission transfer #64
+* Fixed: Force Disconnect White screen #48
+* Fixed: Redirect url
+* Updated: Plugin prefix
+
+Version 2.0.6 - 21th December 2019
+
+* Fixed: Can not continue checkout if entering wrong CVC #61
+* Fixed: Saving card issue for logged in customer.
+* Fixed: Duplicated email classes declaration.
+
+Version 2.0.5 - 12th December 2019
+* Fixed: Anonymous checkout.
+
+Version 2.0.4 - 7th December 2019
+
+* Fixed: Attached to the customer beforehand #13 (#58)
+* Fixed: Order Actions in WP-Admin empty #55 (#56)
+
+Version 2.0.3 - 6th December 2019
+
+* Added: Setting to disable refund #43.
+* Added: Allow using Stripe Default redirect URI.
+* Fixed: Commission recording issue.
+* Fixed: Force disconnect redirects to incorrect dashboard #34.
+* Fixed: Direct Charge: Refund failed if the commission is set to 100% #39.
+* Updated: Improving the vendor refund process #42.
+* Updated: Improving plugin log.
+* Updated: Remove the webhook setting.
+
+Version 2.0.2 - 4th October 2019
+
+* Fixed: Checkout error when the commission is disabled.
+
+Version 2.0.1 - 27th September 2019
+
+* Added: Displaying exact redirect URI in setting page.
+* Fixed: Log doesn't work.
+* Fixed: Can't switch to live mode.
+* Fixed: Connect error when the marketplace use Separate Charges and Transfers.
+
+Version 2.0.0 - 22th September 2019
+
+* Added: Complete rewrite allowing quicker feature implementation and updates.
+* Added: Support SCA for new payments regulation in Europe.
+* Added: Replace Charge API with PaymentIntent API to process payment.
+* Added: Support 3-D Secure cards.
+* Added: Refund and refund request for vendors to create and manage refunds.
+* Added: Support WC Vendors Woocommerce Subscriptions.
+
+Version 1.0.5 - 14th March 2017
+
+* Added: WooCommerce 3.0 compatibility
+* Added: Support for non decimal currencies #17
+* Added: Process_payment filters and actions #16
+* Added: French translations
+
+Version 1.0.4 - 23rd August 2016
+
+* Added: Logging system with option to enable or disable
+* Added: Filter to change where disconnect stripe url goes
+* Fixed: Mark vendors paid for multiple products
+* Fixed: Charges in Stripe are higher than in Woocommerce #15
+
+Version 1.0.3 - 22nd March 2016
+
+* Added: Default language file for translations with text domain wcv_stripe_connect
+* Fixed: Marks all commissions as "paid" #10
+* Fixed: Changed how stripe initialises #11
+* Fixed: Commissions Paid to Admin wrong #12
+* Fixed: Stripe's Saved Card info not displaying correctly #9
+* Fixed: Check commission paid on per product basis
+* Fixed: Added checks to only fire when required
+
+Version 1.0.2 - 21st September 2015
+
+ * Added: da_DK Danish Translation (Thanks Bjorn) #5
+ * Updated: Credit card icons on checkout page will now only show credit cards that your country accepts (Thanks Bjorn) #6
+
+Version 1.0.1 - 31st August 2015
+
+* Now supports all 135 currencies that Stripe supports #4
+
+Version 1.0.0 - 6th July 2015
+
+* Initial release

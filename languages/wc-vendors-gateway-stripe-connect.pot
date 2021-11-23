@@ -1,0 +1,1624 @@
+# Copyright (C) 2021 WC Vendors - Stripe Commissions & Gateway
+# This file is distributed under the same license as the WC Vendors - Stripe Commissions & Gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Vendors - Stripe Commissions & Gateway\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wc-vendors-gateway-stripe-connect.php:331
+msgid "Settings"
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:332
+msgid "Docs"
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:333
+msgid "Support"
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:386
+msgid "WooCommerce is required to be installed and activated."
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:391
+msgid "WC Vendors Marketplace is required to be installed and activated."
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:406
+msgid "WC Vendors - Stripe Commissions & Gateway is missing requirements and has been <a href=\"%s\">deactivated</a>. Please make sure all requirements are available."
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:427
+msgid "Clear Stripe Connect cache"
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:428
+msgid "This will delete Stripe Account country cache."
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:429
+msgid "Clear cache"
+msgstr ""
+
+#: wc-vendors-gateway-stripe-connect.php:537
+msgid "Old version found! Please remove WC Vendors - Stripe Commissions & Gateway to use the new version."
+msgstr ""
+
+#: includes/class-customer.php:170
+msgid "Name"
+msgstr ""
+
+#: includes/class-customer.php:170
+msgid "Username"
+msgstr ""
+
+#: includes/class-customer.php:266, includes/class-helper.php:781
+msgid "Error: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-bancontact.php:64
+msgid "Stripe Bancontact"
+msgstr ""
+
+#. translators: link
+#: includes/class-gateway-stripe-bancontact.php:66
+msgid "All other general Stripe settings can be adjusted <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/class-gateway-stripe-bancontact.php:186
+msgid "Add Payment"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:104
+msgid "Update the Payment Method used for all of my active subscriptions (optional)."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:146
+msgid "Sorry, we're not accepting prepaid cards at this time. Your credit card has not been charge. Please try with alternative payment method."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:151, includes/class-gateway-stripe-connect.php:541, includes/abstracts/abstract-wcv-sc-payment-gateway.php:626
+msgid "Payment processing failed. Please retry."
+msgstr ""
+
+#. translators: minimum amount
+#. translators: 1) dollar amount
+#: includes/class-gateway-stripe-connect-subs.php:273, includes/abstracts/abstract-wcv-sc-payment-gateway.php:223
+msgid "Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:283
+msgid "Customer not found"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:318, includes/class-order-handler.php:155, includes/abstracts/abstract-wcv-sc-payment-gateway.php:1745
+msgid "Sorry, we are unable to process your payment at this time. Please retry later."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:472
+msgid "Invalid customer ID. A valid \"Stripe Customer ID\" must begin with \"cus_\"."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:470
+msgid "A \"Stripe Customer ID\" value is required."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:480
+msgid "Invalid source ID. A valid source \"Stripe Source ID\" must begin with \"src_\" or \"card_\"."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:547, includes/class-gateway-stripe-connect-subs.php:562
+msgid "N/A"
+msgstr ""
+
+#. translators: 1) card brand 2) last 4 digits
+#: includes/class-gateway-stripe-connect-subs.php:562
+msgid "Via %1$s card ending in %2$s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:581
+msgid "WC_Subscriptions_Checkout::process_checkout"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:590
+msgid "Failed to create subscription for order. No order found matching the given ID: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:628
+msgid "Failed to create subscription for order. %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:636
+msgid "Subscription #%1$d created for order: %2$d"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:646
+msgid "Subscription dates updated for order: %d"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:660
+msgid "Subscriptions created for order: %d"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:675
+msgid "No order found for the checkout session #%s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:682
+msgid "No subscriptions for order #%s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:696
+msgid "Payment complete for subscription #%s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:701
+msgid "Subscription checkout processed for session: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:715, includes/class-gateway-stripe-connect.php:629
+msgid "Webhook does not have a valid event."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:720
+msgid "Processing subscription webhook event %1$s, type: %2$s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:727
+msgid "Checkout session completed. Session id: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:731
+msgid "Invoice paid successfully. Invoice id: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:735
+msgid "Invoice payment failed. Invoice id: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:739
+msgid "Customer created. Customer id: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:743
+msgid "Charge succeededd. Charge id: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:747
+msgid "Subscription payment intent succeeded. PaymentIntent id: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:766
+msgid "Process invoice.payment_succeeded webhook for invoice: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:770, includes/class-gateway-stripe-connect-subs.php:796
+msgid "No order found for invoice: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:775
+msgid "No subscriptions found for order: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:779
+msgid "Maybe transfer commissions for order: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:792
+msgid "Processing invoice.payment_failed webhook for invoice: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect-subs.php:801
+msgid "No subscriptions found for order #%s."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:141
+msgid "Stripe Connect"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:160
+msgid "Stripe Connect works by adding payment fields on the checkout and then sending the details to Stripe for verification and then payment split with vendors.  <a href=\"%1$s\" target=\"_blank\">Sign up</a> for a Stripe account, and <a href=\"%2$s\" target=\"_blank\">connect your application</a>."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:190
+msgid "Continue to payment"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:287
+msgid "Change Payment Method"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:282
+msgid "Add Card"
+msgstr ""
+
+#. translators: link to Stripe testing page
+#: includes/class-gateway-stripe-connect.php:316
+msgid "TEST MODE ENABLED. In test mode, you can use the card number 4242424242424242 with any CVC and a valid expiration date or check the <a href=\"%s\" target=\"_blank\">Testing Stripe documentation</a> for more card numbers."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:400
+msgid "The secret key cannot be the same as the publishable key, please check your settings"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:453
+msgid "Please accept the terms and conditions first"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:454
+msgid "Please fill in required checkout fields first"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:503
+msgid "Please fill in all the required checkout fields."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:504
+msgid "Error:"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:634
+msgid "Start processing webhook event %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:641
+msgid "Payment intent created"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:651, includes/class-gateway-stripe-connect.php:659
+msgid "Handle Stripe webhook event: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:655
+msgid "Payment intent succeeded"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:681
+msgid "Start processing Stripe webhook."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:684
+msgid "Cannot process request because it comes from an unknown source."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:690
+msgid "This endpoint is for processing webhooks and should not be accessed directly."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:702
+msgid "Unexpected value encountered for webhook secret. Please double check your webhook secret and update your settings."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:705
+msgid "The webhook verification code used has expired. Please obtain a new webhook verification from Stripe and update your settings."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:721
+msgid "Process webhook event for checkout session %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:726
+msgid "No order to process for the checkout session: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:733
+msgid "Payment completed through Stripe Checkout"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:734
+msgid "Payment complete for order: %s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:738
+msgid "No payment required for order: #%s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:741
+msgid "Awaiting payment"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:742
+msgid "Order unpaid #%s not paid"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:746
+msgid "Done processing completed checkout for order #%s"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:794
+msgid "Customer successfully charged for order: #%d"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:880
+msgid "Default Stripe redirect URI"
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:1026
+msgid "This represents the fee Stripe collects for the transaction."
+msgstr ""
+
+#: includes/class-gateway-stripe-connect.php:1027
+msgid "Stripe Fee:"
+msgstr ""
+
+#: includes/class-helper.php:178
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: includes/class-helper.php:179
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: includes/class-helper.php:180
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: includes/class-helper.php:181
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: includes/class-helper.php:182
+msgid "The card number is incorrect."
+msgstr ""
+
+#: includes/class-helper.php:183
+msgid "The card number is incomplete."
+msgstr ""
+
+#: includes/class-helper.php:184
+msgid "The card's security code is incomplete."
+msgstr ""
+
+#: includes/class-helper.php:185
+msgid "The card's expiration date is incomplete."
+msgstr ""
+
+#: includes/class-helper.php:186
+msgid "The card has expired."
+msgstr ""
+
+#: includes/class-helper.php:187
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: includes/class-helper.php:188
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: includes/class-helper.php:189
+msgid "The card's expiration year is in the past"
+msgstr ""
+
+#: includes/class-helper.php:190
+msgid "The card was declined."
+msgstr ""
+
+#: includes/class-helper.php:191
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: includes/class-helper.php:192
+msgid "An error occurred while processing the card."
+msgstr ""
+
+#: includes/class-helper.php:193, includes/class-order-handler.php:97
+msgid "Unable to process this payment, please try again or use alternative method."
+msgstr ""
+
+#: includes/class-helper.php:194
+msgid "The billing country is not accepted by SOFORT. Please try another country."
+msgstr ""
+
+#: includes/class-helper.php:711
+msgid "Shipping Total"
+msgstr ""
+
+#: includes/class-helper.php:775
+msgid "Invalid Request: %s"
+msgstr ""
+
+#: includes/class-intent-controller.php:108
+msgid "CSRF verification failed."
+msgstr ""
+
+#: includes/class-intent-controller.php:121
+msgid "Missing order ID for payment confirmation"
+msgstr ""
+
+#: includes/class-order-handler.php:137
+msgid "This card is no longer available and has been removed."
+msgstr ""
+
+#. translators: error message
+#: includes/class-order-handler.php:185
+msgid "Stripe payment failed: %s"
+msgstr ""
+
+#. translators: error message
+#: includes/class-order-handler.php:279, includes/class-order-handler.php:266, includes/class-order-handler.php:250, includes/class-order-handler.php:235
+msgid "Unable to capture charge! %s"
+msgstr ""
+
+#. translators: transaction id
+#: includes/class-order-handler.php:290, includes/abstracts/abstract-wcv-sc-payment-gateway.php:610
+msgid "Stripe charge complete (Charge ID: %s)"
+msgstr ""
+
+#: includes/class-users.php:56
+msgid "Connect status"
+msgstr ""
+
+#: includes/class-users.php:78
+msgid "Connected"
+msgstr ""
+
+#: includes/class-users.php:84
+msgid "Not-Connected"
+msgstr ""
+
+#: includes/class-users.php:95
+msgid "Stripe connect status"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:164
+msgid "Your Stripe account must be in Europe to connect to this marketplace"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:162
+msgid "Your Stripe account must be in US to connect to this marketplace"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:198
+msgid "Can not connect to Stripe because this marketplace uses invalid Stripe API keys."
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:202
+msgid "Error code"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:241
+msgid "Your Stripe country account must be in the Europe to connect to this marketplace."
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:232
+msgid "Your Stripe country account must be in the US to connect to this marketplace."
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:273
+msgid "Your account has been connected to Stripe."
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:278
+msgid "Stripe Connect Error: %s"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:301, includes/class-vendor-dashboard.php:320
+msgid "Your account has been disconnected from Stripe"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:305
+msgid "<a href=\"%s\">Force disconnect?</a>"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:307
+msgid "Stripe DeAuthorize Error: %s"
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:485
+msgid "You need to <a href=\"%s\">connect your Stripe account</a> to add or edit products."
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:472
+msgid "You need to <a href=\"%s\">connect your Stripe account</a> to add products."
+msgstr ""
+
+#: includes/class-vendor-dashboard.php:506
+msgid "You need to <a href=\"%s\">connect your Stripe account</a> before adding products."
+msgstr ""
+
+#: includes/class-wcv-sc-ajax.php:154
+msgid "We failed to process your order. Please refresh the page and try again."
+msgstr ""
+
+#: includes/class-wcv-sc-ajax.php:165
+msgid "You must be logged in to purchase a subscription. Please login to complete your order."
+msgstr ""
+
+#: includes/class-wcv-sc-ajax.php:190
+msgid "Failed to create checkout session. Please reload the page and try again."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:35
+msgid "Save payment information to my account for future purchases."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:310
+msgid "Processing payment using Separate Charges and Transfers."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:314
+msgid "Processing payment using Direct Charges."
+msgstr ""
+
+#. translators: 1) blog name 2) order number
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:325, includes/abstracts/abstract-wcv-sc-payment-gateway.php:1940
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:511
+msgid "3D Secure card is not supported"
+msgstr ""
+
+#. translators: transaction id
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:638
+msgid "Stripe charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:599
+msgid "Stripe charge awaiting payment: %s."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:904
+msgid "Invalid payment method. Please input a new card number."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1148
+msgid "This order can not be refunded by marketplace admin."
+msgstr ""
+
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#. translators: 1) dollar amount 2) transaction id 3) refund message
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1203, includes/abstracts/abstract-wcv-sc-payment-gateway.php:1313, includes/refund/class-refund.php:301
+msgid "Refunded %1$s - Refund ID: %2$s - Reason: %3$s"
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1203, includes/abstracts/abstract-wcv-sc-payment-gateway.php:1313, includes/refund/class-refund.php:301
+msgid "Pre-Authorization Released"
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1234
+msgid "The vendor is not a connected vendor."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1239
+msgid "Can not find the original vendor order to refund."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1244
+msgid "This order was processed with WC Vendors Stripe Connect v2.0.2 or earlier. Try manual refund instead."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1254
+msgid "Could not find the transaction id of order."
+msgstr ""
+
+#: includes/abstracts/abstract-wcv-sc-payment-gateway.php:1509
+msgid "There was a problem adding the payment method."
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:10
+msgid "Customer Geography: Belgium"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:14
+msgid "<a href=\"https://stripe.com/payments/payment-methods-guide#bancontact\" target=\"_blank\">Payment Method Guide</a>"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:18
+msgid "Must be activated from your Stripe Dashboard Settings <a href=\"https://dashboard.stripe.com/account/payments/settings\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:22, includes/admin/stripe-connect-settings.php:10, includes/refund/emails/class-wcv-admin-new-refund-request-email.php:73, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:75, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:75
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:23
+msgid "Enable Stripe Bancontact"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:29, includes/admin/stripe-connect-settings.php:17
+msgid "Title"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:31, includes/admin/stripe-connect-settings.php:19
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:32
+msgid "Bancontact"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:36, includes/admin/stripe-connect-settings.php:24
+msgid "Description"
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:38, includes/admin/stripe-connect-settings.php:26
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/admin/stripe-bancontact-settings.php:39
+msgid "You will be redirected to Bancontact."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:11
+msgid "Enable Stripe connect"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:20
+msgid "Credit Card (Stripe)"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:31
+msgid "Test mode"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:32
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:34
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:39
+msgid "Publishable Key"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:42, includes/admin/stripe-connect-settings.php:50, includes/admin/stripe-connect-settings.php:65, includes/admin/stripe-connect-settings.php:73
+msgid "Get your API keys from your stripe account."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:47
+msgid "Secret Key"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:55
+msgid "Client ID"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:57, includes/admin/stripe-connect-settings.php:80
+msgid "Get your client ID from your stripe account, the Apps menu."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:62
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:70
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:78
+msgid "Test Client ID"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:85
+msgid "Webhook Signing Secret"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:88
+msgid "Get your Webhook Secret from your Stripe account."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:93, includes/admin/stripe-connect-settings.php:105
+msgid "Connect redirect page"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:97, includes/admin/stripe-connect-settings.php:102, includes/admin/stripe-connect-settings.php:107
+msgid "Select the page to redirect to after a vendor account is connected."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:98
+msgid "Stripe requires this URI exactly matches one of the uris specified in Stripe settings."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:99
+msgid "Please use this URI for Stripe redirect URI setting: "
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:101
+msgid "Click the URI to select"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:111
+msgid "Statement Descriptor"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:113
+msgid "This may be up to 22 characters. The statement description must contain at least one letter, may not include ><\"' characters, and will appear on your customer's statement in capital letters."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:118
+msgid "Stripe Modal Checkout"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:119
+msgid "Enable Stripe Checkout"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:121
+msgid "If enabled, this option shows a \"pay\" button and modal credit card form on the checkout, instead of credit card fields directly on the page."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:126
+msgid "Checkout type"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:127
+msgid "Choose whether to use checkout modal or hosted checkout form."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:130
+msgid "Modal form"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:131
+msgid "Hosted checkout"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:137
+msgid "Stripe Checkout Image"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:138
+msgid "Optionally enter the URL to a 128x128px image of your brand or product. e.g. <code>https://yoursite.com/wp-content/uploads/2013/09/yourimage.jpg</code>"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:144
+msgid "Stripe Checkout Description"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:146
+msgid "Shows a description of your store on Stripe Modal Checkout."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:151
+msgid "Stripe Connect Button Theme"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:152
+msgid "Button Theme"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:154
+msgid "Select the button theme you would like to show."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:158
+msgid "Blue"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:159
+msgid "Blue border"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:160
+msgid "Light blue"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:161
+msgid "Light blue border"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:165
+msgid "Saved Cards"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:166
+msgid "Enable Payment via Saved Cards"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:168
+msgid "If enabled, users will be able to pay with a saved card during checkout. Card details are saved on Stripe servers, not on your store."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:173
+msgid "Require connected account"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:174
+msgid "Require the vendors to connect their account before they can add products"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:179
+msgid "Disable edit"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:180
+msgid "Disable editing existing products if vendors have not connected their account. This is effective only when require connected account option is checked."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:185
+msgid "Logging"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:186
+msgid "Log debugging messages"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:188
+msgid "Enable writing to a log for for debugging. This is found in WooCommerce > Status > Logs"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:193
+msgid "Use Stripe Separate Charges and Transfers (US/EU)"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:194
+msgid "Enable Separate Charges and Transfers"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:196
+msgid "Check this option to enable Separate Charges and Transfers which allows more advanced payment features including 3D Secure Card. This option is available for US/EU marketplace only."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:201
+msgid "Split stripe fee"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:202
+msgid "Enable splitting stripe fee between marketplace and %s"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:207
+msgid "Disable Refund"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:208
+msgid "Disable Refund and Refund request functionalities."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:213
+msgid "Payout Method"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:215
+msgid "All payouts are default marked manually, mark check if payment method to automatic."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:219
+msgid "Automatic"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:220
+msgid "Manually"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:221
+msgid "Automatic Schedule"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:225
+msgid "Automatic Schedule Payout"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:228
+msgid "How frequently available funds are paid out."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:231
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:232
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:233
+msgid "Monthly"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:237
+msgid "Weekly Day"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:240
+msgid "The day of the week when available funds are paid out."
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:243
+msgid "Monday"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:244
+msgid "Tuesday"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:245
+msgid "Wednesday"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:246
+msgid "Thursday"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:247
+msgid "Friday"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:248
+msgid "Saturday"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:249
+msgid "Sunday"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:253
+msgid "Payout Monthly Date"
+msgstr ""
+
+#: includes/admin/stripe-connect-settings.php:256
+msgid "The day of the month when available funds are paid out, specified as a number between 1–31."
+msgstr ""
+
+#: includes/frontend/html-form-elements.php:25
+msgid "Card Number"
+msgstr ""
+
+#: includes/frontend/html-form-elements.php:36
+msgid "Expiry Date"
+msgstr ""
+
+#: includes/frontend/html-form-elements.php:44
+msgid "Card Code (CVC)"
+msgstr ""
+
+#: includes/frontend/html-form-elements.php:17
+msgid "Credit or debit card"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:6
+msgid "TEST MODE ENABLED. In test mode, you can use the card number 4242424242424242 with any CVC and a valid expiration date."
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:13
+msgid "Manage cards"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:17
+msgid "Card ending with"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:20
+msgid "Use a new credit card"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:38
+msgid "Credit Card number"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:43
+msgid "Expiration date"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:45
+msgid "Month"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:46
+msgid "January"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:47
+msgid "February"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:48
+msgid "March"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:49
+msgid "April"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:50
+msgid "May"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:51
+msgid "June"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:52
+msgid "July"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:53
+msgid "August"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:54
+msgid "September"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:55
+msgid "October"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:56
+msgid "November"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:57
+msgid "December"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:61
+msgid "Year"
+msgstr ""
+
+#: includes/frontend/html-form-stripe-connect.php:68
+msgid "Card security code"
+msgstr ""
+
+#: includes/frontend/html-vendor-stripe-connect.php:23
+msgid "Your account is currently connected to Stripe."
+msgstr ""
+
+#: includes/frontend/html-vendor-stripe-connect.php:24
+msgid "Click here to disconnect your Stripe account."
+msgstr ""
+
+#: includes/frontend/html-vendor-stripe-connect.php:16, includes/frontend/html-vendor-stripe-connect.php:19
+msgid "Connect with Stripe"
+msgstr ""
+
+#: includes/frontend/html-vendor-stripe-connect.php:17
+msgid "Your account is not yet connected with Stripe."
+msgstr ""
+
+#: includes/refund/class-refund-helpers.php:64, includes/refund/class-refund-request-controller.php:107
+msgid "In review"
+msgstr ""
+
+#: includes/refund/class-refund-helpers.php:65, includes/refund/class-refund-request-controller.php:111
+msgid "Approved"
+msgstr ""
+
+#: includes/refund/class-refund-helpers.php:66, includes/refund/class-refund-request-controller.php:115
+msgid "Rejected"
+msgstr ""
+
+#: includes/refund/class-refund-helpers.php:67, includes/refund/class-refund-request-controller.php:119
+msgid "Cancelled"
+msgstr ""
+
+#: includes/refund/class-refund-helpers.php:68, includes/refund/class-refund-request-controller.php:123
+msgid "Succeeded"
+msgstr ""
+
+#: includes/refund/class-refund-helpers.php:69, includes/refund/class-refund-request-controller.php:127
+msgid "Failed"
+msgstr ""
+
+#: includes/refund/class-refund-helpers.php:70
+msgid "In trash"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-meta-boxes.php:49
+msgctxt "meta box title"
+msgid "Refund Request Data"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:104, includes/refund/class-refund-request-dashboard.php:70
+msgid "Status"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:105
+msgid "Refund Request"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:106
+msgid "Vendor"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:107, includes/refund/class-refund-request-dashboard.php:72
+msgid "Amount"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:108, includes/refund/class-refund-request-dashboard.php:73
+msgid "Reason"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:109, includes/refund/class-refund-request-dashboard.php:74
+msgid "Date"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:141
+msgid "for"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:143
+msgid "Order"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:257, includes/refund/class-refund-request-admin-post-type.php:338, includes/refund/meta-boxes/class-meta-box-refund-request-data.php:129
+msgid "Approve"
+msgstr ""
+
+#: includes/refund/class-refund-request-admin-post-type.php:258, includes/refund/class-refund-request-admin-post-type.php:339, includes/refund/meta-boxes/class-meta-box-refund-request-data.php:130
+msgid "Reject"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:51, includes/refund/class-refund-request-dashboard.php:54
+msgid "Refund Requests"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:52
+msgctxt "shop_request post type singular name"
+msgid "Refund Request"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:53
+msgid "Add request"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:54
+msgid "Add new request"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:55
+msgid "Edit"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:56
+msgid "Edit request"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:57
+msgid "New request"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:58
+msgid "View request"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:59
+msgid "Search requests"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:60
+msgid "No requests found"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:61
+msgid "No requests found in trash"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:62
+msgid "Parent requests"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:63
+msgctxt "Admin menu name"
+msgid "Refund Requests"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:64
+msgid "Filter requests"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:65
+msgid "Refund Requests navigation"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:66
+msgid "Refund Requests list"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:68
+msgid "This is where store requests are stored."
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:108
+msgid "In review <span class=\"count\">(%s)</span>"
+msgid_plural "In review <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/refund/class-refund-request-controller.php:112
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/refund/class-refund-request-controller.php:116
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/refund/class-refund-request-controller.php:120
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/refund/class-refund-request-controller.php:124
+msgid "Succeeded <span class=\"count\">(%s)</span>"
+msgid_plural "Succeeded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/refund/class-refund-request-controller.php:128
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/refund/class-refund-request-controller.php:167
+msgid "Refund requests"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:168
+msgid "Refund requests %s"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:206, includes/refund/class-refund-request-controller.php:222, includes/refund/class-refund-request-controller.php:358, includes/refund/class-refund-request-controller.php:364
+msgid "Cheating uh?"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:232
+msgid "Invalid refund amount"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:236
+msgid "Error processing refund. Please try again."
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:242
+msgid "Error processing refund. Please try to refund an amount less than or equal to %1$s%2$s"
+msgstr ""
+
+#: includes/refund/class-refund-request-controller.php:277, includes/refund/class-refund.php:218
+msgid "Invalid refund amount."
+msgstr ""
+
+#: includes/refund/class-refund-request-dashboard.php:69
+msgid "Request"
+msgstr ""
+
+#: includes/refund/class-refund-request-dashboard.php:71
+msgid "Parent order"
+msgstr ""
+
+#: includes/refund/class-refund-request-dashboard.php:106
+msgid "Order #%d"
+msgstr ""
+
+#: includes/refund/class-refund-request-dashboard.php:169
+msgid "No request found."
+msgstr ""
+
+#. translators: %s: new order status
+#: includes/refund/class-refund-request.php:80
+msgid "Refund request status set to %s."
+msgstr ""
+
+#: includes/refund/class-refund-request.php:75
+msgid "Refund request status changed from %1$s to %2$s."
+msgstr ""
+
+#: includes/refund/class-refund-request.php:96
+msgid "Error during status transition."
+msgstr ""
+
+#: includes/refund/class-refund-request.php:290
+msgid "WCVendors"
+msgstr ""
+
+#: includes/refund/class-refund-request.php:291
+msgid "wc-vendors-gateway-stripe-connect"
+msgstr ""
+
+#: includes/refund/class-refund.php:92
+msgid "This amount must be less or equal to %s."
+msgstr ""
+
+#: includes/refund/class-refund.php:93
+msgid "Are you sure you wish to process this refund? This action cannot be undone."
+msgstr ""
+
+#: includes/refund/class-refund.php:97
+msgid "Are you sure you wish to cancel this refund request?"
+msgstr ""
+
+#: includes/refund/class-refund.php:134
+msgid "Refund"
+msgstr ""
+
+#: includes/refund/class-refund.php:206, includes/refund/class-refund.php:347
+msgid "Invalid order."
+msgstr ""
+
+#: includes/refund/class-refund.php:210
+msgid "Order can not be refunded"
+msgstr ""
+
+#: includes/refund/class-refund.php:294
+msgid "Refund failed! Reason: %s"
+msgstr ""
+
+#: includes/refund/class-refund.php:352
+msgid "Invalid payment method."
+msgstr ""
+
+#: includes/refund/class-refund.php:360
+msgid "The payment gateway for this order does not exist."
+msgstr ""
+
+#: includes/refund/class-refund.php:366
+msgid "An error occurred while attempting to create the refund using the payment gateway API."
+msgstr ""
+
+#: templates/dashboard/refund.php:33
+msgid "Refund Order #%d"
+msgstr ""
+
+#: templates/dashboard/refund.php:47, templates/dashboard/request-details.php:81
+msgid "Order Items"
+msgstr ""
+
+#: templates/dashboard/refund.php:53, templates/dashboard/request-details.php:87
+msgid "Item"
+msgstr ""
+
+#: templates/dashboard/refund.php:54, templates/dashboard/request-details.php:88
+msgid "Cost"
+msgstr ""
+
+#: templates/dashboard/refund.php:55, templates/dashboard/request-details.php:89
+msgid "Qty"
+msgstr ""
+
+#: templates/dashboard/refund.php:56, templates/dashboard/request-details.php:90
+msgid "Total"
+msgstr ""
+
+#: templates/dashboard/refund.php:61, templates/dashboard/refund.php:62, templates/dashboard/request-details.php:95, templates/dashboard/request-details.php:96
+msgid "Tax"
+msgstr ""
+
+#. translators: %1$s: tax item name %2$s: tax class name
+#. translators: %1$s: tax item name %2$s: tax class name
+#: templates/dashboard/refund.php:64, templates/dashboard/request-details.php:98
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: templates/dashboard/refund.php:96
+msgid "Restock refunded items"
+msgstr ""
+
+#: templates/dashboard/refund.php:101
+msgid "Amount already refunded"
+msgstr ""
+
+#: templates/dashboard/refund.php:105
+msgid "Total available to refund"
+msgstr ""
+
+#: templates/dashboard/refund.php:111
+msgid "Refund the line items above. This will show the total amount to be refunded"
+msgstr ""
+
+#: templates/dashboard/refund.php:112
+msgid "Refund amount"
+msgstr ""
+
+#: templates/dashboard/refund.php:131
+msgid "Note: the refund reason will be visible by the customer."
+msgstr ""
+
+#: templates/dashboard/refund.php:132
+msgid "Reason for refund (optional):"
+msgstr ""
+
+#: templates/dashboard/refund.php:144
+msgid "Payment gateway"
+msgstr ""
+
+#. translators: refund amount, gateway name
+#: templates/dashboard/refund.php:148
+msgid "Refund %1$s via %2$s"
+msgstr ""
+
+#. translators: refund amount
+#: templates/dashboard/refund.php:152
+msgid "Cancel"
+msgstr ""
+
+#: templates/dashboard/request-details.php:30
+msgid "Refund request #%d Details"
+msgstr ""
+
+#: templates/dashboard/request-details.php:39, includes/refund/meta-boxes/class-meta-box-refund-request-data.php:49
+msgid "Details"
+msgstr ""
+
+#: templates/dashboard/request-details.php:44, includes/refund/meta-boxes/class-meta-box-refund-request-data.php:62
+msgid "Parent order: "
+msgstr ""
+
+#: templates/dashboard/request-details.php:55, includes/refund/meta-boxes/class-meta-box-refund-request-data.php:108
+msgid "Status:"
+msgstr ""
+
+#: templates/dashboard/request-details.php:68, includes/refund/meta-boxes/class-meta-box-refund-request-data.php:89, templates/emails/refund/request-details.php:67, templates/emails/refund/plain/request-details.php:48
+msgid "Reason:"
+msgstr ""
+
+#: templates/dashboard/request-details.php:204
+msgid "Cancel this request"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:7
+msgid "New Refund request"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:8
+msgid "This email notify admin when vendors create new refund requests."
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:11, includes/refund/emails/class-wcv-admin-new-refund-request-email.php:12
+msgid "New refund request"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:75, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:77, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:77
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:79
+msgid "Recipient(s)"
+msgstr ""
+
+#. translators: %s: WP admin email
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:82
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:88, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:81, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:81
+msgid "Subject"
+msgstr ""
+
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:92, includes/refund/emails/class-wcv-admin-new-refund-request-email.php:101, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:85, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:94, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:85, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:94
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:97, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:90, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:90
+msgid "Email heading"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:106, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:99, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:99
+msgid "Email type"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-admin-new-refund-request-email.php:108, includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:101, includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:101
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:7
+msgid "Refund request approved"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:8
+msgid "This email notify vendors when their requests are approved."
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:11
+msgid "Refund request has been approved."
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-approved-email.php:12
+msgid "Refund request has been approved"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:7
+msgid "Refund request rejected"
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:8
+msgid "This email notify vendors when their requests are rejected."
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:11
+msgid "Refund request has been rejected."
+msgstr ""
+
+#: includes/refund/emails/class-wcv-vendor-refund-request-rejected-email.php:12
+msgid "Refund request has been rejected"
+msgstr ""
+
+#. translators: placeholder is the ID of the subscription.
+#: includes/refund/meta-boxes/class-meta-box-refund-request-data.php:41
+msgctxt "edit membership header"
+msgid "Refund request #%s"
+msgstr ""
+
+#: includes/refund/meta-boxes/class-meta-box-refund-request-data.php:54
+msgid "Date created:"
+msgstr ""
+
+#: includes/refund/meta-boxes/class-meta-box-refund-request-data.php:74
+msgid "Requested by:"
+msgstr ""
+
+#: includes/refund/meta-boxes/class-meta-box-refund-request-data.php:103
+msgid "Actions"
+msgstr ""
+
+#: includes/refund/meta-boxes/class-meta-box-refund-request-data.php:136
+msgid "Or"
+msgstr ""
+
+#: includes/refund/meta-boxes/class-meta-box-refund-request-data.php:138
+msgid "Move to Trash"
+msgstr ""
+
+#: templates/emails/refund/admin-new-refund-request.php:17
+msgid "%1$s has requested a refund for order #%2$d. There are more detail bellow for your reference."
+msgstr ""
+
+#. translators: %s: Order ID.
+#: templates/emails/refund/request-details.php:20
+msgid "[Request #%s]"
+msgstr ""
+
+#: templates/emails/refund/request-details.php:28
+msgid "Product"
+msgstr ""
+
+#: templates/emails/refund/request-details.php:29
+msgid "Quantity"
+msgstr ""
+
+#: templates/emails/refund/request-details.php:30
+msgid "Price"
+msgstr ""
+
+#: templates/emails/refund/vendor-refund-request-approved.php:12
+msgid "Requested #%d has been approved. There are more detail bellow for your reference."
+msgstr ""
+
+#: templates/emails/refund/vendor-refund-request-rejected.php:12
+msgid "Requested #%d has been rejected. There are more detail bellow for your reference."
+msgstr ""
+
+#. translators: %s: Customer billing full name
+#: templates/emails/refund/plain/admin-new-refund-request.php:10
+msgid "%1$s has requested a refund for order #%2$d. There are more detail bellow for your references."
+msgstr ""
+
+#: templates/emails/refund/plain/request-details.php:24
+msgid "[Request #%1$s] (%2$s)"
+msgstr ""
+
+#. translators: %s: Order link.
+#: templates/emails/refund/plain/request-details.php:53
+msgid "View request: %s"
+msgstr ""
+
+#. translators: %s: Customer billing full name
+#: templates/emails/refund/plain/vendor-refund-request-approved.php:10
+msgid "Requested #%d has been approved. There are more detail bellow for your references."
+msgstr ""
+
+#. translators: %s: Customer billing full name
+#: templates/emails/refund/plain/vendor-refund-request-rejected.php:10
+msgid "Requested #%d has been rejected. There are more detail bellow for your references."
+msgstr ""
